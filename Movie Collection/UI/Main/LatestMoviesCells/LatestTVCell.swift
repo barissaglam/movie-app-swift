@@ -10,9 +10,14 @@ import UIKit
 
 class LatestTVCell: UITableViewCell {
 
+    
+    @IBOutlet weak var clvLatest: UICollectionView!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

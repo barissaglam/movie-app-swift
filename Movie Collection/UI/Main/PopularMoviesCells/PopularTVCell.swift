@@ -10,6 +10,8 @@ import UIKit
 
 class PopularTVCell: UITableViewCell {
 
+    @IBOutlet weak var clvPopular: UICollectionView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

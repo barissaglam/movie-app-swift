@@ -9,6 +9,7 @@
 import UIKit
 
 class NowPlayingTVCell: UITableViewCell {
+    
     @IBOutlet weak var clvNowPlaying: UICollectionView!
     
     override func awakeFromNib() {

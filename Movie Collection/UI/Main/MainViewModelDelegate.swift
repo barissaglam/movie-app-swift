@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol MainViewModelDelegate {
+    func onError(errorMsg: String)
+    func popularMoviesLoaded(popularMovies: PopularMovies)
+}
